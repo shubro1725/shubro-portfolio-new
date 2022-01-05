@@ -1,3 +1,36 @@
+body{
+    margin: 0;
+}
 h1{
     font-size: 50px;
+}
+.name{
+    color: tomato;
+}
+p{
+    font-size: 20px;
+}
+.intro{
+    margin-left: 20px;
+    
+
+}
+.firstpart{
+    display: flex;
+    margin-bottom: 100%;
+    border-image-slice: fill;
+}
+.linkbutton{
+    text-decoration: none;
+     background-image: linear-gradient( yellowgreen ,tomato);
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+.banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.fit{
+    padding-left: 15%;
+    width: 100%;
 }
